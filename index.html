@@ -3,7 +3,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>best score</title>
   </head>
-  <body></body>
+  <body>
+    <div class="content">
+      <p class="best">Best score1: 
+          <p class="best1"></p>
+      </p>
+      <p class="current">Current score1:
+          <p class="current1"></p>
+      </p>
+    </div>
+    <button class="button">Increment</button>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyC3xvbutVPl2bVi6HblCP0EWSktHA84rns",
+        authDomain: "bestscore-e1bad.firebaseapp.com",
+        databaseURL: "https://bestscore-e1bad-default-rtdb.firebaseio.com",
+        projectId: "bestscore-e1bad",
+        storageBucket: "bestscore-e1bad.appspot.com",
+        messagingSenderId: "648249858722",
+        appId: "1:648249858722:web:01f74e27adbada95f315fb",
+        measurementId: "G-NN760W81JF",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="app.js"></script>
+  </body>
 </html>
