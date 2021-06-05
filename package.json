@@ -1,0 +1,23 @@
+{
+  "name": "best-score",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratcan-yuksel/best-score.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratcan-yuksel/best-score/issues"
+  },
+  "homepage": "https://github.com/muratcan-yuksel/best-score#readme",
+  "dependencies": {
+    "firebase": "^8.6.5"
+  }
+}
