@@ -30,7 +30,9 @@ db.collection("score")
 const button = document.querySelector(".button");
 button.addEventListener("click", (e) => {
   console.log(best);
-  db.collection("score").doc("o1g8xxyV75n4aaWoOIZX").update({
-    best: 1,
-  });
+  db.collection("score")
+    .doc("o1g8xxyV75n4aaWoOIZX")
+    .update({
+      best: parseInt(best.textContent) + 1,
+    });
 });
